@@ -2,7 +2,8 @@ AddressBook::Application.routes.draw do
   get "home/index"
 
   devise_for :users, path: "auth", path_names: { sign_in: 'login', sign_out: 'logout', password: 'secret', confirmation: 'verification', unlock: 'unblock', registration: 'register', sign_up: 'cmon_let_me_in' }
-
+ # match 'posts/:id' => 'posts#show', :as => :khamar
+  resources :posts
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -11,7 +12,8 @@ AddressBook::Application.routes.draw do
   # Keep in mind you can assign values other than :controller and :action
 
   # Sample of named route:
-  #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
+     #
+  #match 'posts/new'=>'posts#new'
   # This route can be invoked with purchase_url(:id => product.id)
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
