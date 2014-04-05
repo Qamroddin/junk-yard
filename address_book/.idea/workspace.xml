@@ -12,9 +12,9 @@
     <file path="$USER_HOME$/testing server instance/FedenaScholar/vendor/plugins/arrowad_applicant_finance_structure/app/views/applicant_finance_log/search_payment.erb" changelist="0ef75812-9232-474b-9a20-b898ed7f8366" time="1396677550892" ignored="false" />
     <file path="/application.css" changelist="0ef75812-9232-474b-9a20-b898ed7f8366" time="1396679788507" ignored="false" />
     <file path="/posts.css.scss" changelist="0ef75812-9232-474b-9a20-b898ed7f8366" time="1396679162050" ignored="false" />
-    <file path="/index.html.erb" changelist="0ef75812-9232-474b-9a20-b898ed7f8366" time="1396687482628" ignored="false" />
+    <file path="/index.html.erb" changelist="0ef75812-9232-474b-9a20-b898ed7f8366" time="1396688567647" ignored="false" />
     <file path="/search_applicants.erb" changelist="0ef75812-9232-474b-9a20-b898ed7f8366" time="1396681207592" ignored="false" />
-    <file path="/a.dummy" changelist="0ef75812-9232-474b-9a20-b898ed7f8366" time="1396681320025" ignored="false" />
+    <file path="/a.dummy" changelist="0ef75812-9232-474b-9a20-b898ed7f8366" time="1396688449351" ignored="false" />
     <file path="/_form.html.erb" changelist="0ef75812-9232-474b-9a20-b898ed7f8366" time="1396682868979" ignored="false" />
     <file path="/comments_controller.rb" changelist="0ef75812-9232-474b-9a20-b898ed7f8366" time="1396683434328" ignored="false" />
     <file path="/show.html.erb" changelist="0ef75812-9232-474b-9a20-b898ed7f8366" time="1396686285429" ignored="false" />
@@ -92,19 +92,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/posts/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="32" selection-start="814" selection-end="827" vertical-scroll-proportion="0.66137564">
+            <state line="25" column="32" selection-start="814" selection-end="827" vertical-scroll-proportion="-15.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="-0.625">
+            <state line="3" column="39" selection-start="103" selection-end="103" vertical-scroll-proportion="0.07936508">
               <folding />
             </state>
           </provider>
@@ -134,8 +134,8 @@
         <option value="$PROJECT_DIR$/app/views/posts/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
       </list>
     </option>
   </component>
@@ -461,7 +461,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FedenaScholar" />
+    <property name="last_opened_file_path" value="$USER_HOME$/server_instance/stores_25th march_khamar" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -841,13 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -892,7 +885,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="32" selection-start="814" selection-end="827" vertical-scroll-proportion="0.66137564">
+        <state line="25" column="32" selection-start="814" selection-end="827" vertical-scroll-proportion="-15.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="39" selection-start="103" selection-end="103" vertical-scroll-proportion="0.07936508">
           <folding />
         </state>
       </provider>
