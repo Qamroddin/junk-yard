@@ -6,6 +6,7 @@ AddressBook::Application.routes.draw do
   resources :posts  do
     resources :comments
   end
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -15,7 +16,7 @@ AddressBook::Application.routes.draw do
 
   # Sample of named route:
      #
-  #match 'posts/new'=>'posts#new'
+  match 'home/me'=>'home#me'
   # This route can be invoked with purchase_url(:id => product.id)
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):

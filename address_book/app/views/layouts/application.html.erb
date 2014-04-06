@@ -41,8 +41,24 @@
                     <ul class="dropdown-menu">
                       <li><%= link_to 'Edit profile', edit_user_registration_path %></li>
                       <li><%= link_to "Logout", destroy_user_session_path, :method=>:delete %></li>
-                     <li><a href="#"><i class="i"></i> Make admin</a></li>
+                     <li><a href="#"><i class="i"></i><%= link_to "me", home_me_path %></a></li>
                     </ul>
+                  </div>
+                </li>
+                <li>
+                  <div id="user">
+                    <div style="border: 1px solid #FFFFFF;
+                            float: left;
+                            height: 54px;
+                            margin-left: 5px;
+                            padding: 1px;">
+                      <%@profile_img=Album.find_by_user_id_and_profile_picture(current_user.id,true) %>
+                      <%logger.info "__________#{@profile_img.inspect}"%>
+                      <%unless @profile_img.nil?%>
+                          <%= image_tag(@profile_img.avatar,:height => '76px', :width => '75px') %>
+
+                      <%end%>
+                    </div>
                   </div>
                 </li>
             <% else %>
