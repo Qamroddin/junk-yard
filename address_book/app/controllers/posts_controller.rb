@@ -22,9 +22,8 @@ class PostsController < ApplicationController
   end
   def update
     @post = Post.find(params[:id])
-
-    if @post.update(params[:post])
-      redirect_to posts_path
+   if @post.update_attributes(:title=>params[:post][:title],:text=>params[:post][:text])
+     redirect_to posts_path
     else
       render 'edit'
     end
@@ -35,8 +34,8 @@ class PostsController < ApplicationController
 
     redirect_to posts_path
   end
-  #private
-  #def post_params
-  #  params.require(:post).permit(:title, :text)
-  #end
+  private
+  def post_params
+    params.require(:post)
+  end
 end
